@@ -129,7 +129,7 @@ const Skills: React.FC = () => {
 
               <div className="space-y-2">
                 <div className="text-3xl font-bold text-primary-600 dark:text-primary-400">
-                  8+
+                  11+
                 </div>
                 <p className="text-gray-600 dark:text-gray-400">Years Experience</p>
               </div>
