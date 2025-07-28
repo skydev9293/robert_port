@@ -21,59 +21,50 @@ export const contact: Contact = {
 export const experiences: Experience[] = [
   {
     id: "1",
-    company: "Amazon",
+    company: "Salesforce",
     position: "Staff Software Engineer",
-    duration: "2020 – Present",
-    location: "Buda, TX",
+    duration: "03/2019 – Present",
+    location: "San Francisco, CA",
     description: [
-      "Led backend architecture and development for Levanta, Amazon's affiliate marketing platform",
-      "Designed microservices with TypeScript, Java, and GraphQL supporting 50M+ transactions monthly",
-      "Integrated Supabase and Firebase for hybrid storage and real-time analytics"
+      "Led development of data systems for Salesforce Health Cloud enabling real-time clinical data sharing and EHR patient timelines",
+      "Built HL7 and FHIR data pipelines using Java and Python, reducing new EHR onboarding time by 30%",
+      "Developed real-time alert systems with Golang and care dashboards using React and WebSockets",
+      "Integrated Kafka for fault-tolerant streaming, established HIPAA-compliant audit workflows with Ruby on Rails"
     ],
-    technologies: ["TypeScript", "Java", "Node.js", "NestJS", "GraphQL", "PostgreSQL", "Firebase", "Apache Kafka", "Redis", "AWS", "GitHub Actions", "Docker"],
+    technologies: [
+      "Java", "Python", "Go", "Ruby on Rails", "React", "TypeScript", "WebSockets", 
+      "Apache Kafka", "Docker", "Mocha", "Supertest", "Tailwind CSS", "AWS"
+    ],
     achievements: [
-      "Increased partner engagement by 20% and reduced API response time by 15%",
-      "Automated CI/CD pipelines enabling zero-downtime deployments",
-      "Integrated OpenAI API to reduce customer support ticket resolution time by 25%"
+      "Improved care team response time by 25% via real-time notifications",
+      "Reduced regulatory reporting workload by 40% through automation",
+      "Mentored backend engineers on HL7/FHIR and event-driven systems"
     ]
   },
   {
     id: "2",
-    company: "KeyBank",
+    company: "Twilio",
     position: "Senior Software Engineer",
-    duration: "2018 - 2020",
-    location: "Cleveland, OH",
+    duration: "06/2014 – 02/2019",
+    location: "San Francisco, CA",
     description: [
-      "Led development of AI-driven contract processing workflows",
-      "Built PCI-compliant payment systems processing $20M+ monthly",
-      "Modernized legacy systems with Docker, Kubernetes, and Terraform"
+      "Led architecture and development of real-time video systems for Twilio Programmable Video",
+      "Built SFU media router in Java and Go, reducing packet loss by 21%",
+      "Created session orchestration API with Node.js, deployed on Docker and Kubernetes",
+      "Developed React UI SDK with adaptive layout and stream recovery features"
     ],
-    technologies: ["Python", "Java", "Node.js", "Stripe", "MongoDB", "PostgreSQL", "AWS", "Docker", "Kubernetes", "Terraform"],
-    achievements: [
-      "Increased document throughput by 40% with AI automation",
-      "Reduced infrastructure costs by 20% and deployment time by 50%",
-      "Mentored junior engineers and delivered reusable microfrontend components"
-    ]
-  },
-  {
-    id: "3",
-    company: "Dwellfox",
-    position: "Software Engineer",
-    duration: "2014 - 2018",
-    location: "Herndon, VA",
-    description: [
-      "Developed automation workflows integrating AI/ML with Python, Java, TensorFlow",
-      "Built scalable web applications and dashboards for real-time analytics",
-      "Designed microservices architecture with Docker and AWS"
+    technologies: [
+      "Java", "Go", "Node.js", "React", "Docker", "Kubernetes", 
+      "Apache Kafka", "Ruby on Rails", "WebRTC", "Playwright", "AWS"
     ],
-    technologies: ["Python", "Java", "TensorFlow", "Scikit-learn", "React", "Node.js", "GraphQL", "PostgreSQL", "MongoDB", "Docker", "AWS"],
     achievements: [
-      "Reduced manual effort by 35% with automation solutions",
-      "Improved reporting time by 25% with dynamic dashboards",
-      "Delivered HIPAA-compliant solutions for secure client data processing"
+      "Improved video call recovery by 35% under unstable network conditions",
+      "Reduced support investigation time by 40% with custom dashboards",
+      "Standardized ICE signaling across browsers for better reliability"
     ]
   }
 ];
+
 
 export const projects: Project[] = [
   {
