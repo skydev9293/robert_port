@@ -68,39 +68,6 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    id: "3",
-    title: "Amazon Leventa",
-    imageUrl: "/image3.png",
-    description: "A large-scale affiliate marketing platform enabling Amazon sellers to manage millions of transactions seamlessly and increase partner engagement.",
-    longDescription: "Created a comprehensive platform for ML engineers to deploy, monitor, and manage machine learning models in production. Includes A/B testing, model versioning, and automated rollback capabilities.",
-    technologies: ["Python", "FastAPI", "Docker", "Kubernetes", "AWS", "DynamoDB"],
-    githubUrl: "https://github.com/alexchen/ml-platform",
-    featured: true,
-    category: "ai"
-  },
-  {
-    id: "4",
-    title: "Amazon Audible",
-    imageUrl: "/image4.png",
-    description: "Automated Terraform modules for Audible’s cloud infrastructure to speed up deployment and ensure stability.",
-    longDescription: "Developed reusable Terraform modules and automation scripts for provisioning cloud infrastructure. Includes best practices for security, monitoring, and cost optimization.",
-    technologies: ["Java", "AWS", "GraphQL", "DynamoDB", "Redis", "Docker", "Kubernetes"],
-    githubUrl: "https://github.com/alexchen/cloud-automation",
-    featured: false,
-    category: "devops"
-  },
-  {
-    id: "4",
-    title: "Amazon Zappos",
-    imageUrl: "/image5.png",
-    description: "Streamlined Zappos’ online retail operations with automated infrastructure tools to improve efficiency and reduce costs.",
-    longDescription: "Developed reusable Terraform modules and automation scripts for provisioning cloud infrastructure. Includes best practices for security, monitoring, and cost optimization.",
-    technologies: ["Python", "AWS", "Docker", "Kubernetes", "DynamoDB", "Redis", "PostgreSQL"],
-    githubUrl: "https://github.com/alexchen/cloud-automation",
-    featured: false,
-    category: "devops"
-  },
-  {
     id: "1",
     title: "AI Chatbot Application",
     description: "High-performance task queue system built with Go and Redis",
