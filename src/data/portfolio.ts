@@ -12,7 +12,7 @@ export const contact: Contact = {
   email: "steven.zhang9293@gmail.com",
   phone: "+1 (214) 382-3878",
   location: "Cedar Park, TX",
-  linkedin: "https://linkedin.com/in/stevenzhang",
+  linkedin: "https://linkedin.com/in/steven-zhang-983bca",
   github: "https://github.com/stevenzhang",
   website: "https://stevenzhang.dev",
   twitter: "https://twitter.com/stevenzhang_dev"
@@ -67,6 +67,31 @@ export const experiences: Experience[] = [
 
 
 export const projects: Project[] = [
+
+  {
+    id: "4",
+    title: "Salesforce Health Cloud",
+    imageUrl: "/salesforce_healthcare.jpg",
+    description: "Real-time dashboard visualizing AI-driven clinical image data for faster insights and care coordination.",
+    longDescription: "A real-time analytics dashboard designed for Salesforce Health Cloud to visualize clinical imaging data powered by AI. Features include customizable widgets, live charting with D3.js, and WebSocket-powered updates with sub-500ms latency. Backend powered by Node.js and AWS, with scalable data architecture using Redis, PostgreSQL, and DynamoDB.",
+    technologies: ["React","TypeScript","D3.js","WebSocket","Node.js","AWS","DynamoDB","Redis","PostgreSQL"],
+    githubUrl: "https://github.com/alexchen/analytics-dashboard",
+    liveUrl: "https://analytics-demo.alexchen.dev",
+    featured: true,
+    category: "devops"
+  },
+  {
+    id: "5",
+    title: "Twilio Programmable Video",
+    imageUrl: "/twilio.webp",
+    description: "Virtual receptionist system automating call routing and video handling using programmable communications.",
+    longDescription: "An AI receptionist platform developed for Twilio Programmable Video and Voice APIs, automating call routing with adaptive reconnection logic. Built cloud infrastructure with Terraform and Docker, following security, monitoring, and multi-region scaling best practices. Includes live session handling via WebRTC, Redis-based task queues, and PostgreSQL persistence.",
+    technologies: ["TypeScript","AWS","Python","Bash","CloudFormation","Terraform","Docker","Kubernetes","PostgreSQL","Redis","DynamoDB","Twilio","WebRTC"],
+    githubUrl: "https://github.com/alexchen/cloud-automation",
+    liveUrl: "https://analytics-demo.alexchen.dev",
+    featured: false,
+    category: "devops"
+  }, 
   {
     id: "1",
     title: "AI Chatbot Application",
@@ -91,7 +116,7 @@ export const projects: Project[] = [
     category: "web"
   },
   {
-    id: "4",
+    id: "3",
     title: "AI Receptionist Platform",
     imageUrl: "/image6.png",
     description: "Virtual receptionist platform automating call routing to ensure no opportunity is missed.",
@@ -100,7 +125,37 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/alexchen/cloud-automation",
     featured: false,
     category: "devops"
-  }
+  },
+    
+      // {
+      //   id: "6",
+      //   title: "IBM Healthcare Cloud",
+      //   imageUrl: "/IBM_healthcare.png",
+      //   description: "Smart chatbot automating healthcare customer interactions for greater efficiency and responsiveness.",
+      //   longDescription: "Developed as part of IBM Healthcare Cloud, this AI chatbot application streamlines patient interaction workflows. It integrates with Redis-backed task queues and real-time messaging, enhancing responsiveness and reducing manual overhead. Containerized and deployed using Kubernetes with full observability via Prometheus.",
+      //   technologies: ["TypeScript","Redis","AWS","Kubernetes","Prometheus"],
+      //   githubUrl: "https://github.com/alexchen/task-queue",
+      //   liveUrl: "https://github.com/alexchen/task-queue",
+      //   featured: true,
+      //   category: "ai"
+      // },
+      // {
+      //   id: "7",
+      //   title: "Stripe Data Pipeline",
+      //   category: "devops",
+      //   imageUrl: "/strip.png",
+      //   description: "High-throughput virtual receptionist system built for secure call routing and regulatory-ready infrastructure.",
+      //   longDescription: "Designed as part of Stripe’s real-time data pipeline, this AI-powered receptionist system automates communication workflows at scale. Used Terraform and Docker to deploy secure, multi-region services with monitoring, schema traceability, and adaptive event handling. Supported compliance with PCI-DSS and SOX.",
+      //   technologies: ["TypeScript","AWS","Python","Bash","CloudFormation","Docker",
+      //     "Kubernetes",
+      //     "PostgreSQL",
+      //     "Redis",
+      //     "DynamoDB"
+      //   ],
+      //   "githubUrl": "https://github.com/alexchen/cloud-automation",
+      //   "liveUrl": "https://github.com/alexchen/cloud-automation",
+      //   "featured": false
+      // }    
 ];
 
 export const skills: Skill[] = [
@@ -165,7 +220,7 @@ export const education: Education[] = [
     duration: "2010 - 2014",
     gpa: "3.7/4.0",
     achievements: [
-      "Magna Cum Laude graduate",
+    "Magna Cum Laude graduate",
       "President of Computer Science Student Association",
       "Winner of ACM Programming Contest (Regional)"
     ]
