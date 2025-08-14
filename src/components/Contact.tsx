@@ -82,21 +82,9 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/stevenzhang',
+      href: 'https://github.com/smileguitar',
       color: 'hover:text-gray-900'
     },
-    {
-      icon: Linkedin,
-      label: 'LinkedIn',
-      href: 'https://linkedin.com/in/stevenzhang',
-      color: 'hover:text-blue-600'
-    },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com/stevenzhang_dev',
-      color: 'hover:text-blue-400'
-    }
   ];
 
   const containerVariants = {
