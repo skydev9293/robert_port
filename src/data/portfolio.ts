@@ -4,13 +4,13 @@ export const personalInfo: PersonalInfo = {
   name: "Steven Zhang",
   title: "Staff Software Engineer",
   bio: "Seasoned Software Engineer with 11 years of experience building robust, large-scale systems forhealthcare, financial services, and e-commerce industries. Specialized in designing resilient cloud architectures and integrating AI solutions using Java, Python, and TypeScript to deliver secure, high-performance applications that align technology with strategic business goals.",
-  resume: "/StevenZhang.pdf",
+  resume: "/",
   avatar: "/avatar.png"
 };
 
 export const contact: Contact = {
   email: "steven.zhang9293@gmail.com",
-  phone: "+1 (214) 382-3878",
+  phone: "+1 (254) 620-4320",
   location: "Cedar Park, TX",
   linkedin: "https://linkedin.com/in/steven-zhang-983bca",
   github: "https://github.com/stevenzhang",
