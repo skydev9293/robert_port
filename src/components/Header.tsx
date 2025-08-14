@@ -40,7 +40,6 @@ const Header: React.FC = () => {
 
   const socialLinks = [
     { icon: Github, href: contact.github, label: 'GitHub' },
-    { icon: Linkedin, href: contact.linkedin, label: 'LinkedIn' },
     { icon: Mail, href: `mailto:${contact.email}`, label: 'Email' },
   ];
 
