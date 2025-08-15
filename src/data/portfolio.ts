@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     id: "2",
     company: "Twilio",
     position: "Senior Software Engineer",
-    duration: "06/2014 – 02/2019",
+    duration: "06/2013 – 02/2019",
     location: "San Francisco, CA",
     description: [
       "Led architecture and development of real-time video systems for Twilio Programmable Video",
