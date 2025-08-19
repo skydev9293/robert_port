@@ -63,7 +63,7 @@ const Header: React.FC = () => {
               href="#home"
               className="text-2xl font-bold gradient-text"
             >
-              Robert Lee
+              Robert Lee 
             </a>
           </motion.div>
 
