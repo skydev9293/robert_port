@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_email: 'steven.zhang9293@gmail.com', // Your target email
+        to_email: 'robert.r.lee92120@gmail.com', // Your target email
         reply_to: formData.email
       };
 
@@ -61,19 +61,19 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'steven.zhang9293@gmail.com',
-      href: 'mailto:steven.zhang9293@gmail.com'
+      value: 'robert.r.lee92120@gmail.com',
+      href: 'mailto:robert.r.lee92120@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (254) 620-4320',
-      href: 'tel:+12143823878'
+      value: '+1 (413) 558-5688',
+      href: 'tel:+14135585688'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Cedar Park, TX',
+      value: 'McAlester, NM',
       href: '#'
     }
   ];
@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/smileguitar',
+      href: 'https://github.com/100LL',
       color: 'hover:text-gray-900'
     },
   ];

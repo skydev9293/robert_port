@@ -1,31 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Cloud, Users, Brain } from 'lucide-react';
+import { Code, Cloud, Users, Brain, Activity, Zap } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 
 const About: React.FC = () => {
   const highlights = [
     {
-      icon: Code,
-      title: "Robust Systems",
-      description: "11+ years building secure, large-scale systems for healthcare, finance, and e-commerce."
+      icon: Zap,
+      title: "High-Performance Engineering",
+      description: "Optimized Java microservices and data pipelines with GraalVM, virtual threads, and AOT compilation to achieve millisecond startups and 40% lower memory use."
     },
     {
       icon: Cloud,
-      title: "Cloud Architecture",
-      description: "Designed resilient cloud solutions and integrated AI to deliver high-performance applications."
+      title: "Cloud-Native Architectures",
+      description: "Designed scalable systems on AWS, Azure, and GCP with Kubernetes, Kafka, and CI/CD pipelines enabling 50K+ requests/sec and zero-downtime deployments."
     },
     {
-      icon: Brain,
-      title: "AI Integration",
-      description: "Specialized in leveraging AI tools like GPT and TensorFlow to automate workflows and boost efficiency."
+      icon: Activity,
+      title: "Observability & Reliability",
+      description: "Built unified monitoring with OpenTelemetry, Prometheus, and CloudWatch, ensuring fault tolerance and real-time visibility across distributed services."
     },
     {
       icon: Users,
-      title: "Team Leadership",
-      description: "Led teams, mentored engineers, and championed best practices to drive growth and innovation."
+      title: "Mentorship & Leadership",
+      description: "Guided junior engineers in secure coding, distributed systems, and GraalVM optimizations, boosting team velocity by 20% through reviews and pair programming."
     }
   ];
+
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -92,22 +93,23 @@ const About: React.FC = () => {
               <ul className="space-y-3 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                 <li className="flex items-start">
                   <span className="text-primary-600 dark:text-primary-400 mr-3 mt-1">•</span>
-                  Solving complex technical problems with elegant solutions
+                  Optimizing systems for speed, scalability, and reliability
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 dark:text-primary-400 mr-3 mt-1">•</span>
-                  Mentoring engineers and fostering team growth
+                  Designing cloud-native architectures that handle millions of requests
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 dark:text-primary-400 mr-3 mt-1">•</span>
-                  Building systems that positively impact millions of users
+                  Driving observability and fault tolerance across distributed services
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 dark:text-primary-400 mr-3 mt-1">•</span>
-                  Staying current with emerging technologies and best practices
+                  Mentoring engineers and fostering collaborative growth
                 </li>
               </ul>
             </div>
+
           </motion.div>
 
           {/* Highlights Grid */}
@@ -135,35 +137,6 @@ const About: React.FC = () => {
               </motion.div>
             ))}
           </motion.div>
-
-          {/* Fun Facts */}
-          <motion.div variants={itemVariants} className="bg-gradient-to-r from-primary-50 to-purple-50 dark:from-dark-800 dark:to-dark-800 rounded-2xl p-8">
-            <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
-              Fun Facts About Me
-            </h4>
-            <div className="grid md:grid-cols-3 gap-6 text-center">
-              <div>
-                <div className="text-2xl mb-2">💻</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Built automation workflows that saved 1000+ hours of manual work
-                </p>
-              </div>
-              <div>
-                <div className="text-2xl mb-2">🚀</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Led projects handling 50M+ transactions monthly at Amazon
-                </p>
-              </div>
-              <div>
-                <div className="text-2xl mb-2">🌎</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Worked with global teams across 3 continents
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-
         </motion.div>
       </div>
     </section>

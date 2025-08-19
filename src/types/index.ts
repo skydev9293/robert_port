@@ -19,7 +19,7 @@ export interface Project {
   liveUrl?: string;
   imageUrl?: string;
   featured: boolean;
-  category: 'web' | 'mobile' | 'backend' | 'devops' | 'ai' | 'other';
+  category: 'web' | 'mobile' | 'backend' | 'devops' | 'ai' | 'other' | 'data' | 'cloud' | 'database';
 }
 
 export interface Skill {
