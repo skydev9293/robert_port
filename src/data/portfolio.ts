@@ -21,8 +21,8 @@ export const contact: Contact = {
 export const experiences: Experience[] = [
   {
     id: "1",
-    company: "Oracle",
-    position: "Software Engineer (IC-4)",
+    company: "Amazon",
+    position: "Staff Software Engineer",
     duration: "03/2019 – 07/2025",
     location: "Remote / McAlister, NM",
     description: [
@@ -54,9 +54,9 @@ export const experiences: Experience[] = [
   {
     id: "2",
     company: "Snowflake",
-    position: "Software Engineer (IC-3)",
+    position: "Senior Software Engineer",
     duration: "06/2013 – 02/2019",
-    location: "San Mateo, CA",
+    location: "Remote /McAlister, NM",
     description: [
       "Led core feature development for Snowflake Healthcare, a HIPAA-compliant analytics platform launched in 2017 for processing sensitive patient data at scale",
       "Developed secure query execution engine in Java with encryption and role-based access controls for PHI compliance",
